@@ -24,7 +24,8 @@ pip install torch transformers gradio
 ⚙️ Como Usar
 1. Modo Interativo via Terminal (Zephyr 7B)
 Este script carrega o modelo Zephyr-7B-Beta e permite enviar prompts diretamente pelo terminal:
-
+http://127.0.0.1:7860
+* To create a public link, set `share=True` in `launch()`.
 bash
 Copiar
 Editar
@@ -63,7 +64,15 @@ main(): Loop de entrada para interação com o usuário via terminal.
 💻 Dispositivos Suportados
 O código detecta automaticamente se há uma GPU disponível e utiliza float16 quando aplicável para acelerar a inferência.
 
+
+
 🛠️ Problemas Conhecidos
 Alguns modelos podem exigir mais de 16 GB de VRAM para carregar com eficiência.
 
 Certifique-se de que seu ambiente Python é compatível com a versão de torch e transformers necessária.
+
+
+ Nome | GitHub |
+|------|--------|
+| vinicius pequeno araujo | [) |
+| Matheus anderson de oliveira lehmann| [) |
