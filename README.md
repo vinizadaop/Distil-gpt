@@ -74,5 +74,5 @@ Certifique-se de que seu ambiente Python é compatível com a versão de torch e
 
  Nome | GitHub |
 |------|--------|
-| vinicius pequeno araujo | [) |
+| vinicius pequeno araujo | [https://github.com/vinizadaop) |
 | Matheus anderson de oliveira lehmann| [) |
